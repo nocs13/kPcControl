@@ -29,7 +29,10 @@ public class App
   {
     int port = 8433;
 
+    Settings settings = new Settings();
+
     String path = Paths.get(".").toAbsolutePath().normalize().toString();
+
     System.out.println("Current directory: " + path + ".\n");
 
     try {
